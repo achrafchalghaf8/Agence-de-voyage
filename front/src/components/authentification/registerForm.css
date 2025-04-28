@@ -1,0 +1,72 @@
+.register-container {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+    margin: 0;
+    }
+    
+    .register-form-container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(195, 132, 132, 0.1);
+    width: 500px;
+    }
+    .register-form h2 {
+    margin-bottom: 1.5rem;
+    color: #333;
+    text-align: center;
+    }
+    .input-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-weight: bold;
+    }
+    .input-wrapper {
+    display: block;
+    width: 100%;
+    }
+    .input-wrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.75rem; /* Augmenté de 0.5rem à 0.75rem */
+    transition: all 0.3s ease;
+    }
+    .input-wrapper i {
+    margin-right: 0.75rem; /* Augmenté de 0.5rem à 0.75rem */
+    color: #888;
+    }
+    .input-wrapper input {
+    border: none;
+    flex: 1;
+    padding: 0.75rem; /* Augmenté de 0.5rem à 0.75rem */
+    }
+    .input-wrapper input:focus {
+    border: none;
+    outline: none;
+    
+    }
+    .input-group input:focus {
+    border-color: #ff0077;
+    box-shadow: 0 0 5px rgba(243, 196, 223, 0.5);
+    }
+    .buttonRegister {
+    width: 100%;
+    padding: 1rem; /* Augmenté de 0.75rem à 1rem */
+    border: none;
+    border-radius: 5px;
+    background-color: #ff0090;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+    .buttonRegister:hover {
+    background-color: #e4acd0;
+    }

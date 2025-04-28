@@ -1,0 +1,73 @@
+/* Full-page container with sidebar and dashboard */
+.dashboard-container {
+    display: flex; /* Sidebar and content side by side */
+    min-height: 100vh; /* Full height of the viewport */
+    margin-left: 100px;
+    padding-left: 100px;
+    background-color: #f8f9fa;
+}
+
+/* Dashboard content area */
+.dashboard-content {
+    flex: 1; /* Fill the available space next to the sidebar */
+    padding: 80px; /* Consistent padding for content */
+    background-color: #fff; /* White background for content */
+    box-sizing: border-box; /* Includes padding in width/height */
+    height: 100vh; /* Matches the height of the sidebar */
+    overflow-y: auto; /* Allows scrolling for content overflow */
+    margin-left: -10px; /* Adjust this value to shift content left */
+}
+
+/* Title and other adjustments for content */
+.dashboard-content h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Statistics section */
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+/* Statistic cards */
+.stat-card {
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Form styling */
+.admin-form {
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto; /* Center-align the form */
+}
+
+/* Submit button styling */
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
